@@ -72,7 +72,7 @@ $(function(){
                 //将获取到的token值存入本地缓存中
                 localStorage.setItem('token',res.token)
                 //跳转页面
-                // location.href = '/index.html'
+                location.href = '/index.html'
             }
         })
     })
